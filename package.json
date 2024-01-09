@@ -1,0 +1,18 @@
+{
+  "name": "pluginbus",
+  "version": "0.3.0",
+  "description": "Simple Plugin Architecture for NodeJS projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "pluginbus-hello-world": "file:examples/pluginbus-hello-world",
+    "pluginbus-hello-world-peer": "file:examples/pluginbus-hello-world-peer"
+  }
+}
