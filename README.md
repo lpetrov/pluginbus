@@ -1,13 +1,16 @@
 # pluginbus
 Simple Plugin Architecture for NodeJS projects.
 
-Goal features for v1.0:
+Features planned (not ready yet) for v1.0:
 - Simple, plug-and-play usage, based on NPM packages
 - Auto discovery of plugins
-- Main Event bus for communicating between plugins
 - Plugin lifecycle events
 - Flexible configurations (default general config, plugin specific config, user specific config overrides)
 - Add support for unit tests of plugins
+- Event bus - the main mechanism for communication between plugins/main app (distributed architecture - no direct dependencies between plugins)
+    - One main event bus for communicating between plugins
+    - Pub/sub-like mechanism for dynamic/filtered/wildcard event subscriptions
+- Asynchronous APIs (using Native Promises, e.g. async/await)
 - Last, but not least - optimized for performance
 
 Some day ideas:
